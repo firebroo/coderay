@@ -77,6 +77,9 @@ module CodeRay
     end
     
     TypeFromExt = {
+      'bash'      => :bash,
+      'shell'     => :bash,
+      'sh'        => :bash,
       'c'         => :c,
       'cfc'       => :xml,
       'cfm'       => :xml,
